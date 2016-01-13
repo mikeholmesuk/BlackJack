@@ -1,3 +1,4 @@
 {
-  "foo": "bar"
+    "server_port": 8080,
+    "mongodb_url": "mongodb://docker/blackjack"
 }
