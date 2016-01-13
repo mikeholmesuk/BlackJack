@@ -1,4 +1,4 @@
-FROM node:4-onbuild
+FROM node:5-wheezy
 WORKDIR /app
 ADD / /app
 RUN npm rebuild
