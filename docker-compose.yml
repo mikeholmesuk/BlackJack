@@ -1,0 +1,5 @@
+mongo:
+  image: mongo:latest
+  command: mongod --smallfiles
+  ports:
+    - "27017:27017"
